@@ -15,8 +15,8 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <FeatureCard
-              title="Enterprise Management System"
-              description="Comprehensive solution for managing enterprise resources, workflows, and operations efficiently."
+              title="Employee Management System"
+              description="Comprehensive solution for managing employee resources, workflows, and operations efficiently."
               icon={<Database className="w-6 h-6 text-blue-600" />}
             />
             <FeatureCard

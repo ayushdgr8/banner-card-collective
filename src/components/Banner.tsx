@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -17,9 +18,11 @@ const Banner = () => {
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Powerful solutions for modern enterprises. Manage your assets with confidence and precision.
           </p>
-          <Button className="bg-blue-600 hover:bg-blue-700 transition-all transform hover:scale-105">
-            Get Started
-          </Button>
+          <Link to="/signup">
+            <Button className="bg-blue-600 hover:bg-blue-700 transition-all transform hover:scale-105">
+              Get Started
+            </Button>
+          </Link>
         </motion.div>
       </div>
     </div>

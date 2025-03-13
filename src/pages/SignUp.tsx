@@ -43,8 +43,8 @@ const SignUp = () => {
       description: "Account created successfully",
     });
     
-    // Redirect to home page
-    navigate("/");
+    // Redirect to onboarding page
+    navigate("/onboarding");
   };
 
   return (
