@@ -12,7 +12,7 @@ const SignUp = () => {
   const { toast } = useToast();
   const navigate = useNavigate();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     
     // Basic validation

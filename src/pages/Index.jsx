@@ -1,9 +1,9 @@
 
 import { Database, BarChart3 } from "lucide-react";
-import Navbar from "@/components/Navbar";
-import Banner from "@/components/Banner";
-import FeatureCard from "@/components/FeatureCard";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar.jsx";
+import Banner from "@/components/Banner.jsx";
+import FeatureCard from "@/components/FeatureCard.jsx";
+import Footer from "@/components/Footer.jsx";
 
 const Index = () => {
   return (

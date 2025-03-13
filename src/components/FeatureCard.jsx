@@ -2,13 +2,7 @@
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { motion } from "framer-motion";
 
-interface FeatureCardProps {
-  title: string;
-  description: string;
-  icon: React.ReactNode;
-}
-
-const FeatureCard = ({ title, description, icon }: FeatureCardProps) => {
+const FeatureCard = ({ title, description, icon }) => {
   return (
     <motion.div
       whileHover={{ y: -5 }}
